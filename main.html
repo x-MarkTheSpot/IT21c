@@ -8,15 +8,19 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
+            text-align: center;
+       
         }
     </style>
 </head>
 <body>
-    <h1>Ay di-ara!</h1>
+    <h1 style="color:rgb(12, 212, 226);">Ay di-ara!</h1>
     <h1 id="person1-name"></h1>
     <h1 id="person1-age"></h1>
     <h1 id="person1-occupation"></h1>
     <h1 id="person1-status"></h1>
+    <h1 id="person1-habits"></h1>
+
 
 
     <script>
@@ -25,16 +29,18 @@
             name:"Mark Lester G. Rasonabe",
             age:19,
             occupation:"Student",
-            status:"Ryabn Gosling"
+            status:"lets not talk about it",
+            habits:"Video games, Work out, board games, tackling science phenomenons, and trecking"
         }
 
   
 
-        //Solution 2: Display via HTML
+        //Display via HTML
         document.getElementById("person1-name").innerHTML = "Name: " + person1.name;
         document.getElementById("person1-age").innerHTML = "Age: " + person1.age;
         document.getElementById("person1-occupation").innerHTML = "Occupation: " + person1.occupation;
         document.getElementById("person1-status").innerHTML = "Status: " + person1.status;
+        document.getElementById("person1-habits").innerHTML = "Habits: " + person1.habits;
         
 
 
