@@ -11,15 +11,23 @@
             text-align: center;
        
         }
+        #person1-status {
+            color: rgb(255, 0, 0); 
+        }
+        #person1-name {
+            color: rgb(5, 37, 97); 
+        }
     </style>
 </head>
+
 <body>
-    <h1 style="color:rgb(12, 212, 226);">Ay di-ara!</h1>
+    
+    <h1 style="color:rgba(36, 34, 34, 0.76);">Ay di-ara! akong topic 1 diay nih</h1>
     <h1 id="person1-name"></h1>
     <h1 id="person1-age"></h1>
     <h1 id="person1-occupation"></h1>
     <h1 id="person1-status"></h1>
-    <h1 id="person1-habits"></h1>
+    <h1 id="person1-habbits"></h1>
 
 
 
@@ -30,7 +38,7 @@
             age:19,
             occupation:"Student",
             status:"lets not talk about it",
-            habits:"Video games, Work out, board games, tackling science phenomenons, and trecking"
+            habbits:"Video games, Work out, board games, tackling science phenomenons, and trecking"
         }
 
   
@@ -40,7 +48,7 @@
         document.getElementById("person1-age").innerHTML = "Age: " + person1.age;
         document.getElementById("person1-occupation").innerHTML = "Occupation: " + person1.occupation;
         document.getElementById("person1-status").innerHTML = "Status: " + person1.status;
-        document.getElementById("person1-habits").innerHTML = "Habits: " + person1.habits;
+        document.getElementById("person1-habbits").innerHTML = "Habbits: " + person1.habbits;
         
 
 
