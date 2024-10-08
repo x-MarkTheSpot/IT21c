@@ -1,6 +1,6 @@
 class Person{
 
-    //private Fields
+    //private Field
     #name;
     #age;
     #occupation;
